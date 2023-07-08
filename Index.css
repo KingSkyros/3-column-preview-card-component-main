@@ -10,14 +10,15 @@ body{
 } 
 
 main{  
-    max-width: 26rem;  
+    max-width: 25rem;  
     /* background-color: aqua;  */
     margin-top: 9%;       
 }  
 
 p{
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 2rem;  
+    font-size: 2rem;   
+    font-family: 'Lexend Deca', sans-serif; 
 }  
 
 img{
@@ -27,7 +28,8 @@ img{
 h1{
     color: hsl(0, 0%, 95%); 
     font-size: 3rem; 
-    padding: 10px;
+    padding: 10px; 
+    font-family: 'Big Shoulders Display', cursive;;
 } 
 
 .sedan{
@@ -46,30 +48,32 @@ h1{
     padding: 1rem;
 } 
 
-button{
+.sedan-btn{
+    color: hsl(31, 77%, 52%); 
     background-color: hsl(0, 0%, 95%); 
     border-radius: 30px;  
-    border: none;
     padding: 20px; 
     padding-left: 2rem; 
     padding-right: 2rem; 
     font-size: 1rem;  
-}  
-
-button:hover{
-    background: transparent; 
-    color: white; 
-    border: #ffff 2rem 1px;
-}
-
-.sedan-btn{
-    color: hsl(31, 77%, 52%);
 } 
 
 .suv-btn{
-    color: hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%); 
+    background-color: hsl(0, 0%, 95%); 
+    border-radius: 30px;  
+    padding: 20px; 
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    font-size: 1rem;  
 } 
 
 .luxury-btn{
-    color: hsl(179, 100%, 13%);
+    color: hsl(179, 100%, 13%); 
+    background-color: hsl(0, 0%, 95%); 
+    border-radius: 30px;  
+    padding: 20px; 
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    font-size: 1rem;  
 }
